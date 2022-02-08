@@ -49,7 +49,7 @@ header {
 
 
 
-@media (min-width: 244px) {
+@media (min-width: 244px) and (max-width: 649px) {
 
     body {
         /* max-width: 361px; */
