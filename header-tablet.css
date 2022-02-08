@@ -84,6 +84,9 @@ header {
         width: 100%;
     }
     
+        .contenedor-imagen {
+        width: 20%;
+    }
    
 } 
 
@@ -100,10 +103,7 @@ header {
  
         width: 40%;
     }
-    .contenedor-imagen {
-        justify-content: center;
-        width: 30%;
-    }
+   
 
     .input-buscar {
         width: 95%;
