@@ -1,0 +1,103 @@
+body {
+}
+
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-logo-buscar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 10px 10px;
+    gap: 5px;
+}
+
+.img-logo {
+   width: 150px;
+}
+.form-buscar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-buscar {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    /* padding: 0 10px; */
+
+}
+
+.fa-search {
+    position: absolute;
+    margin-left: 35%;
+    background-color: aqua;
+}
+
+.contenedor-imagen {
+    background-color: aquamarine;
+    width: 40%;
+    display: flex;
+}
+
+.contenedor-form-buscar {
+    background-color: bisque;
+    width: 45%;
+}
+
+.contenedor-parrafo-comprar {
+    background-color: aqua;
+}
+
+
+ .contenedor-logo-buscar-tablet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    padding: 10px 0px;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+    .contenedor-logo-buscar-tablet {
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 769px) {
+    body {
+        background-color: yellow;
+    }
+    .contenedor-logo-buscar, .contenedor-parrafo-comprar {
+        display: none;
+
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+
+}
