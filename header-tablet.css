@@ -49,6 +49,8 @@ header {
 
 
 
+
+
 @media (min-width: 244px) and (max-width: 649px) {
 
     body {
@@ -79,8 +81,10 @@ header {
         font-size: 15px;
     }
     .img-logo {
-        width: 60px;
+        width: 100%;
     }
+    
+   
 } 
 
 
